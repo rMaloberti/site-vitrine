@@ -1,4 +1,4 @@
 node_modules
 .env
-.vscode
-site-vitrine.code-workspace
+.vscode/*
+*.code-workspace
