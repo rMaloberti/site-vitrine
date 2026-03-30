@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Mon Site Vitrine</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Rémi Maloberti - Développeur</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Rémi Maloberti</h1>
+    <h1>RM</h1>
     <nav>
         <a href="#about">À propos</a>
-        <a href="#services">Services</a>
+        <a href="#projects">Projets</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
 
 <section id="hero">
-    <h2>Développeur Web Junior</h2>
-    <p>Création de sites web modernes et performants</p>
+    <h2 class="fade-in">Développeur Web</h2>
+    <p class="fade-in delay">Je crée des expériences web modernes</p>
     <button onclick="scrollToContact()">Me contacter</button>
 </section>
 
-<section id="about">
+<section id="about" class="fade-in">
     <h2>À propos</h2>
-    <p>Passionné par le développement web, je crée des sites modernes et adaptés aux besoins des utilisateurs.</p>
+    <p>Développeur passionné, j’aime créer des interfaces modernes, fluides et performantes.</p>
 </section>
 
-<section id="services">
-    <h2>Services</h2>
-    <div class="card">
+<section id="projects">
+    <h2 class="fade-in">Projets</h2>
+
+    <div class="card fade-in">
         <h3>Site vitrine</h3>
-        <p>Création de sites simples et efficaces.</p>
+        <p>Création d’un site moderne responsive</p>
     </div>
-    <div class="card">
-        <h3>Développement web</h3>
-        <p>Applications web personnalisées.</p>
+
+    <div class="card fade-in">
+        <h3>Application JS</h3>
+        <p>Gestion dynamique des données</p>
     </div>
 </section>
 
-<section id="contact">
+<section id="contact" class="fade-in">
     <h2>Contact</h2>
     <form>
         <input type="text" placeholder="Nom" required>
