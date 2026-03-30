@@ -65,7 +65,7 @@ The goal was to design a responsive and visually appealing website with smooth a
 ---
 
 ## 👨‍💻 Author
-Rémi Maloberti
+MALOBERTI Rémi
 
 ---
 
